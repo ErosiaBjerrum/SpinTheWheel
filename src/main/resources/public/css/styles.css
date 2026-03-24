@@ -1,0 +1,81 @@
+/* Stylesheet for the application */
+
+h1 {
+    color: #369;
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+#bmi-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+#bmi-form input, #bmi-form button {
+    padding: 5px;
+}
+
+#content {
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.link-button {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: darkgoldenrod;
+}
+
+.link-button:hover {
+    background-color: #336699;
+    color: white;
+
+}
+
+.link-button a {
+    text-decoration: none;
+}
+/******** Tables ****** */
+
+.bmi-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bmi-table th,
+.bmi-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+/* Header styling */
+.bmi-table th {
+    font-size: 1.25em;
+}
+
+/* Alternating row colors */
+.bmi-table tr:nth-child(even) {
+    background-color: #d2d2d2;
+}
+
+.bmi-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+
